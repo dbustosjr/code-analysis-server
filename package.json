@@ -1,0 +1,25 @@
+{
+  "name": "code-analysis-server",
+  "version": "1.0.0",
+  "description": "Code analysis MCP server built with mcp-use",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "inspect": "tsx src/index.ts"
+  },
+  "keywords": ["mcp", "mcp-use", "code-analysis", "security", "server"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "mcp-use": "latest",
+    "zod": "^4.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0"
+  }
+}
