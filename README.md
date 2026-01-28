@@ -116,7 +116,6 @@ MCP Client → [HTTP/SSE] → Code Analysis Server → Analysis Engine
 
 ## 📚 Citation
 
-If you use this project or mcp-use in your research or work, please cite:
 
 @software{mcp_use2025,
   author = {Zullo, Pietro and Contributors},
